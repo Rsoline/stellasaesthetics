@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: ghostwhite;
+  color: #496584;/*#606060;*/
+  font-family: "Lato";
+  font-weight: 300;
+}
+/* navbar */
+nav {
+  width: 100%;
+  background: linear-gradient(rgb(146, 110, 200), rgb(130, 82, 202));/*rgb(113, 94, 142));/*linear-gradient(rgb(133, 13, 133), rgb(214, 136, 214));*/
+}
+.logo {
+  font-family: "Alex Brush";
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 26px;
+  left: 50px;
+  font-size: 25px;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  width: 100%;
+  margin: 0 auto;
+}
+ul li {
+  list-style-type: none;
+  /*display: inline-block; that also puts links next to each other but then remove in ul display: flex and justify content*/
+  padding: 25px;
+}
+ul li:hover {
+  background-color: rgb(118, 95, 154);/*#e91e63; reed */
+  font-size: 17px;
+  font-weight: bold;
+  transition: all 1s;
+  transition-timing-function: ease-out;
+  cursor: pointer;
+}
+ul li a {
+  text-transform: uppercase;
+  color: rgb(244, 235, 235);
+  text-decoration: none;
+}
+/* toggle */
+.toggle {
+  width: 100%;
+  padding: 20px 20px;
+  color: white;
+  text-align: right; /* will move the toggle button to the right of navbar */
+  box-sizing: border-box;
+  font-size: 30px;
+  display: none; /* toggle will desapire */
+}
+/* Renata introduction */
+
+
+h1 {
+  text-transform: capitalize;
+  text-align: center;
+  margin: 10px 0;
+  color: rgb(133, 13, 133);
+}
+
+/* section with img */
+.section {
+  width: 80%;
+  display: flex;
+  margin: 20px auto;
+}
+.section1 {
+  background-color: rgb(243, 243, 247);
+  margin: 5px auto;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+.span-microblading {
+  font-weight: 400;
+  color: rgb(133, 13, 133);
+}
+
+.heading {
+  text-align: center;
+  margin-top: 3px;
+  color: rgb(133, 13, 133);
+}
+.hr-section1 {
+  width: 50%;
+  background-color: grey;
+  margin: 5px auto 10px auto;
+}
+.card-paragraph {
+  text-align: left;
+  padding: 0 10px 0 10px;
+}
+
+
+.img-section1 {
+  width: 450px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.p-section1 {
+  line-height: 1.5;
+  padding: 5px 40px;
+  background-color: rgb(243, 243, 247);
+}
+/* card container below img */
+.card-container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card1 {
+  width: 90%;
+  flex-direction: row;
+  margin: 20px auto 20px auto;
+  padding: 10px;
+  text-align: left;
+  line-height: 1.5;
+  background-color: rgb(243, 243, 247);
+
+}
+.card2 {
+  width: 90%;
+  flex-direction: row;
+  margin: 20px auto 20px auto;
+  padding: 20px;
+  text-align: center;
+  line-height: 1.5;
+  background-color: rgb(243, 243, 247);
+}
+.break-section {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* aesthetic cards W3Schools */
+.cards-container-aesthetics {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-content: center; /* WOW this puts container in the exact CENTER :) */
+  grid-gap: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 20px auto;
+  text-align: center;
+}
+.cards-container-aesthetics-card1 {
+  display: grid;
+  margin: 0 auto;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.cards-heading {
+  margin: 10px 0 10px 0;
+  color: rgb(133, 13, 133);
+
+}
+.cards-price {
+  color: grey;
+  font-size: 17px;
+
+}
+.cards-text {
+  margin: 10px 0 15px 0;
+}
+
+.cards-container-aesthetics button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;/*rgb(133, 13, 133);*/
+  background: linear-gradient(rgb(146, 110, 200), rgb(130, 82, 202));
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  color: white;
+}
+button a {
+  color: white;
+}
+
+.cards-container-aesthetics button:hover {
+  opacity: 0.7;
+}
+
+.empty {
+  width: 90%;
+  background-color: ghostwhite;
+  margin: 0 auto;
+}
+.footer-container {
+  background: linear-gradient(rgb(146, 110, 200), rgb(130, 82, 202));
+  margin: 30px auto 0 auto;
+  height: 50px;
+}
+.p-footer {
+  margin: 5px auto;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+}
+
+/* aesthetics cards
+.container-cards {
+  width: 1100px;
+  height: 550px;
+  margin: 0 auto;
+  margin-top: 50px;
+
+  background: ghostwhite;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 40px;
+  margin-bottom: 30px;
+}
+
+.flex-card {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 5px;
+  width: 250px;
+  color: rgb(133, 13, 133);
+  background: linear-gradient(rgb(220, 111, 220), rgb(255, 255, 255));
+  border-radius: 5px;
+  box-shadow: 3px 5px 7px grey;
+}
+
+.flex-card,
+h3 {
+  margin: 0 auto;
+  padding-top: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+span {
+  font-size: 10px;
+}
+
+.flex-card,
+.cards-img {
+  padding-top: 15px;
+}
+
+.flex-card:hover {
+  width: 260px;
+  cursor: grab;
+  font-size: 15px;
+  font-weight: bold;
+  transition: all 5s;
+  color: rgb(133, 13, 133);
+  text-shadow: 1px 1px 1px rgb(235, 206, 206);
+  background: rgb(232, 191, 232);
+}
+*/
+
+
+
+@media (max-width: 478px){
+  .toggle {
+    display: block;
+  }
+  .toggle:hover {
+    cursor: pointer;
+  }
+  .logo {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    font-size: 25px;
+  }
+  ul {
+    width: 100%; /* gives more space to all links */
+    display: none;
+  }
+  ul li {
+    display: block; /* this puts all links below each others */
+    text-align: center;
+  }
+
+  .active {
+    display: block;
+  }
+
+  /* below the navbar */
+  .section {
+    width: 90%;
+    display: block;
+    margin: 15px auto;
+  }
+  .img-section1 {
+    width: 75%;
+    height: auto;
+    margin: 5px auto;
+    display: block;
+  }
+
+  .p-section1 {
+    text-align: left;
+  }
+
+  .card-container {
+    display: block;
+    width: 95%;
+  }
+  .card1 .card2{
+    width: 95%;
+    background-color: rgb(243, 243, 247);
+    padding: 10px;
+    margin: 5px auto;
+    text-align: left;
+  }
+/*
+  .card2 {
+    width: 95%;
+    background-color: rgb(243, 243, 247);
+    padding: 10px;
+    margin: 5px auto;
+    text-align: left;
+  }
+  */
+  /* aesthetic cards W3Schools */
+  .cards-container-aesthetics {
+    display: block;
+    margin: 0 auto 20px auto;
+  }
+  .cards-container-aesthetics-card1 {
+    margin: 20px auto 20px auto;
+
+  }
+  .cards-container-aesthetics-card1 h2 p {
+    margin: 0 auto 20px auto;
+  }
+
+}/* min-width: 481px */
+@media  (min-width: 480px) and (max-width: 900px) {
+  .heading {
+    background: yellow;
+  }
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 25px;
+  }
+  ul li {
+    padding: 7px;
+    line-height: 3;
+    font-size: 14px;
+  }
+  .section {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+  }
+
+  .img-section1 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .cards-container-aesthetics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 270px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .cards-container-aesthetics-card1 {
+    max-width: 270px;
+  }
+}

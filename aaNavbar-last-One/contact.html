@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <title>Navbar last one</title>
+  </head>
+  <body>
+    <nav>
+      <!--<h1 class="logo">Stella's Aesthetics</h1>-->
+      <a class="logo" href="index.html">Stella's Aesthetics</a>
+      <div class="toggle">
+        <!-- <i class="fa-solid fa-bars"></i>-->
+        <i class="fa-solid fa-bars menu"></i>
+        <!--add class name eg ICON after fa-bars to style-->
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aesthetics.html">Aesthetics</a></li>
+        <li><a href="microblading.html">Microblading</a></li>
+        <li><a href="nutrition.html">Nutrition</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h2>Contact</h2>
+
+    <footer class="footer-container">
+      <p class="p-footer">Renata Soline Martinho <br>  solinemartinho@yahoo.com</p>
+    </footer>
+    </body>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".menu").click(function () {
+          $("ul").toggleClass("active");
+        });
+      });
+    </script>
+
+    </html>

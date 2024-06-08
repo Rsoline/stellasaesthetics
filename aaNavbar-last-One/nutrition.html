@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <title>Navbar last one</title>
+  </head>
+  <body>
+    <nav>
+      <!--<h1 class="logo">Stella's Aesthetics</h1>-->
+      <a class="logo" href="index.html">Stella's Aesthetics</a>
+      <div class="toggle">
+        <!-- <i class="fa-solid fa-bars"></i>-->
+        <i class="fa-solid fa-bars menu"></i>
+        <!--add class name eg ICON after fa-bars to style-->
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aesthetics.html">Aesthetics</a></li>
+        <li><a href="microblading.html">Microblading</a></li>
+        <li><a href="nutrition.html">Nutrition</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <h1>Nutrition coach</h1>
+    <!--section with img -->
+        <main class="section">
+          <img src="./images/nutrition food.webp" class="img-section1" alt="">
+          <div class="section1">
+            <h2 class="heading">Nutrition Coach</h2>
+            <hr class="hr-section1">
+            <p class="p-section1">(After AI)
+              Aa an nutrition coach I will provides guidance and support to improve eating habits, make your healthier food choices, and achieve your nutrition-related goals.
+              I will create personalized nutrition plans based on your specific needs, preferences, and lifestyle.
+              I will assess your dietary habits, provide education on nutrition and healthy eating practices, offer meal planning tips.
+              My goal is to help to develop sustainable habits for long-term health and wellness.
+              (After AI) My goal as a nutrition coach is to empower my clients to make positive changes to their diet and lifestyle, improve their health, and achieve their wellness goals.
+            </p>
+          </div>
+        </main>
+    <!-- section below the img -->
+          <div class="card-container">
+
+            <div class="card1">
+              <h2 class="heading">How to loose weight effectively?</h2>
+              <hr class="hr-section1">
+              <p class="card-paragraph">
+              (Renata after AI) In order to effectively and sustainably loose weight, it is important to focus on well balance diet that includes a variety of food groups and paying attention to portion sizes.
+              Incorporating regular exercise is also crucial for weight loss, as it aids in burning calories and increasing metabolism.
+              Alongside these dietary changes, body treatments also can complement the weight loss journey.
+              <br><br>
+              Treatments like massage therapy can aid in relaxation and stress reduction, enhancing the body's natural ability to heal and restore balance.
+              Additionally, techniques such as body wraps or professional skincare treatments can support detoxification and improve the appearance of the skin.
+              Therefore, the combination of proper nutrition advice, regular exercise  and body treatments can be a powerful approach in achieving a successful weight loss journey.
+              </p>
+            </div>
+
+            <div class="card1">
+                <h2 class="heading">Why Nutrition is important?</h2>
+                <hr class="hr-section1">
+                <p class="card-paragraph left">
+                <li>  (After AI) A balance diet is essential for overall health and well-being as it provides the body with the necessary nutrients, such as nergy, vitamins, minerals, proteins, carbohydrates, fats, and fiber and building blocks required for proper functioning, including growth, repair, and maintenance.</li>
+                <br>
+                <li>  A healthy diet helps maintain a healthy weight by providing the body with the right balance of nutrients without excess calories.</li>
+                <br>
+                <li>  A balance, nutritious diet can help reduce the risk of chronic diseases such as heart disease, diabetes, obesity, and certain types of cancer.</li>
+                <br>
+                <li>   Diet can influence mood, cognition, and mental well-being. Nutrient-rich foods can support brain function and mental clarity.</li>
+                </P>
+            </div>
+
+            </div>
+
+            <footer class="footer-container">
+              <p class="p-footer">Renata Soline Martinho <br>  solinemartinho@yahoo.com</p>
+            </footer>
+    </body>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".menu").click(function () {
+          $("ul").toggleClass("active");
+        });
+      });
+    </script>
+
+    </html>

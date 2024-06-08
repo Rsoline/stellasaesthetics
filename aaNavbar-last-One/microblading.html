@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <title>Navbar last one</title>
+  </head>
+  <body>
+    <nav>
+      <!--<h1 class="logo">Stella's Aesthetics</h1>-->
+      <a class="logo" href="index.html">Stella's Aesthetics</a>
+      <div class="toggle">
+        <!-- <i class="fa-solid fa-bars"></i>-->
+        <i class="fa-solid fa-bars menu"></i>
+        <!--add class name eg ICON after fa-bars to style-->
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aesthetics.html">Aesthetics</a></li>
+        <li><a href="microblading.html">Microblading</a></li>
+        <li><a href="nutrition.html">Nutrition</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <h1>Microblading eyebrows</h1>
+    <!--section with img -->
+    <main class="section">
+      <img src="./images/beautiful-eyebrow.jpg" class="img-section1 microblading" alt="" />
+      <div class="section1">
+        <h2 class="heading">Microblading eyebrows</h2>
+        <hr class="hr-section1" />
+        <p class="p-section1"> (AI)
+        Microblading is a semi-permanent cosmetic procedure that involves using a specialized tool to implant pigment into the skin to create natural-looking, fuller eyebrows. The process is often used to enhance the appearance of eyebrows by filling in sparse areas, reshaping the brows, or creating a more defined arch. Microblading is typically performed by a trained and certified microblading technician, who uses a hand-held tool with ultra-fine needles to create hair-like strokes that mimic the natural appearance of eyebrow hairs.
+        <br><br>
+        <span class="span-microblading">How long microblading last?</span>(AI after) The results of microblading can last anywhere from 1 to 3 years, but can vary from person to person, as it depends on factors such as skin type, lifestyle, and aftercare.
+        <br>
+        <span class="span-microblading">Anaesthesia:</span>
+         Yes
+         <br>
+        <span class="span-microblading">Treatment time:</span>
+         60-90 min
+         <br>
+        <span class="span-microblading">Downtime:</span>
+        Redness for 1-2 hours
+        <br>
+        <span class="span-microblading">Results expected in:</span>
+        Immediately and increases over time
+        <br><br>
+        Price: 1 treatment £250 / top up within 4-6 weeks only £70<br>
+        <br>
+        </p>
+      </div>
+    </main>
+    <section class="galery-microblading">
+      <img src="" alt="">
+    </section>
+
+    <main class="section">
+      <img src="./images/prp-face copy.jpeg" class="img-section1" alt="">
+      <div class="section1">
+        <h2 class="heading">What is Micronnedling</h2>
+        <hr class="hr-section1">
+        <p class="p-section1">
+        Microneedling, also known as collagen induction therapy, is a cosmetic procedure that involves the use of a device with fine needles to create tiny punctures in the skin. These micro-injuries stimulate the body's natural wound healing process, which results in increased collagen and elastin production. This helps to improve the texture and firmness of the skin, reduce the appearance of scars, fine lines, and wrinkles, and promote overall skin rejuvenation.
+        </p>
+      </div>
+    </main>
+<!-- section below the img -->
+
+        <div class="card1">
+          <h2 class="heading">Where Micronnedling can be performed?</h2>
+          <hr class="hr-section1">
+          <p class="card-paragraph">
+            Microneedling can be perforn on face, neck, decollate and hands.
+            <br><br>
+            Price: 1 treatment £230 <br>
+            Packadge: 3 tretments £590
+            <br>
+          </p>
+        </div>
+
+        <div class="card2">
+          <h2 class="heading">Questions:</h2>
+          <hr class="hr-section1">
+          <p class="card-paragraph">Anaesthesia: none, but possible</p>
+          <p class="card-paragraph">Treatment time: 50 min</p>
+          <p class="card-paragraph">Downtime: redness for 1-2 hours after treatment </p>
+          <p class="card-paragraph">Results expected in: over time & with more treatments</p>
+          <p class="card-paragraph">Frequency: it’s recommended to have 4-6 sessions every 4 weeks time.
+          </p>
+        </div>
+
+        <footer class="footer-container">
+          <p class="p-footer">Renata Soline Martinho <br>  solinemartinho@yahoo.com</p>
+        </footer>
+
+
+
+  </body>
+
+  <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"
+  ></script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".menu").click(function () {
+        $("ul").toggleClass("active");
+      });
+    });
+  </script>
+</html>
